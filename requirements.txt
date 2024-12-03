@@ -1,1 +1,14 @@
 streamlit
+pandas
+matplotlib
+seaborn
+numpy==1.26.3
+pickle5
+datetime
+pycountry_convert
+missingno
+statsmodels
+statsforecast
+pmdarima
+prophet
+scikit-learn
