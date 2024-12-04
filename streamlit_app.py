@@ -6,27 +6,30 @@ import matplotlib.pyplot as plt
 def load_img(img):
     return plt.imread(img)
 
-st.set_page_config(page_title="PETRÓLEO - BRENT", page_icon=":house:",layout='wide')
+# Configuração inicial
+st.set_page_config(page_title="PETRÓLEO - BRENT", 
+                   page_icon=":house:", 
+                   layout="wide",
+)
+
+# Exibir logotipo
 st.image(load_img('Imagem/logo.png'))
 
 
-#Header
+# Cabeçalho
 with st.container():
-
-    st.title('Bem vindo(a)')
-    st.title('Tech Challenge  Fase 4: PETRÓLEO - BRENT')
+    st.title("Bem-vindo(a)")
+    st.title("Tech Challenge Fase 4: PETRÓLEO - BRENT")
     
+# Informações dos integrantes
 with st.container():
     st.write("---")
-    left_column, right_column = st.columns(2)
-    st.write(
+    st.subheader("Grupo 66 - Integrantes:")
+    st.markdown(
         """
-        Estudo para a Pós Tech em Data Analytics da FIAP
-        
-        Grupo 66, Integrantes:
-        - rm356228 - Joel Pedro Bellatto
-        - rm356366 - Pedro de Almeida Matos
-        - rm349836 - Micael Silva Lemos
-        - rm355565 - Nathalia Alves da Silva Lima
+        - **rm356228** - Joel Pedro Bellatto  
+        - **rm356366** - Pedro de Almeida Matos  
+        - **rm349836** - Micael Silva Lemos  
+        - **rm355565** - Nathalia Alves da Silva Lima
         """
     )
