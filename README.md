@@ -1,19 +1,5 @@
-# 🎈 Blank app template
+# TechChallenge4Petroleo
+ Tech Challenge numero 4 para a pós na FIAP
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+ Site com o trabalho:
+https://fiaptechfase4-grp66.streamlit.app/
